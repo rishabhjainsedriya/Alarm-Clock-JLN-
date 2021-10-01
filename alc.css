@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightskyblue;
+    background-color: black !important;
+    min-width: 100vw;
+    min-height: 100vh;
+  text-align: center;
+}
+
+h1 { 
+    font-size: 7vw;
+    color: lightskyblue;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);    
+}
+
+span { 
+    font-size: 3vw;
+}
+
+
+#setAlrm { 
+    font-size: 3vw;
+    color: lightskyblue;
+    background: black;
+    border: 2px solid lightskyblue;
+    border-radius: 15px;
+        outline: none;  
+}
+
+#setAlrm:hover {
+    cursor: pointer;
+}
+
+#snoozAlrm { 
+    font-size: 3vw;
+    color: lightskyblue;
+    background: black;
+    border: 2px solid lightskyblue;
+    border-radius: 15px;
+        outline: none;  
+}
+
+#snoozAlrm:hover {
+    cursor: pointer;
+}
+
+#setAlrm:active {
+    color: rgb(255, 123, 0);
+    background: rgb(24, 24, 24);
+    border: 2px solid rgb(0, 255, 34);
+    outline: none;
+}
+
+#alarmTimeSelect {
+    font-size: 3vw;
+        color: lightskyblue;
+        background: black;
+        border: 2px solid lightskyblue;
+        border-radius: 15px;
+
+    }
+
+    input[type=time]::-webkit-inner-spin-button,
+    input[type=time]::-webkit-outer-spin-button {  
+    background-color: black;
+    color: lightskyblue;
+    opacity: 1;
+    
+    }
